@@ -131,25 +131,25 @@ streamlit run app/app_streamlit.py
 
 ### 📈 Sales Forecast vs Actual
 
-![Forecast](images/forecast_plot.png)
+![Forecast](Images/forecast_plot.png)
 
 ---
 
 ### 📊 Streamlit Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](Images/dashboard.png)
 
 ---
 
 ### 💻 Terminal Output
 
-![Terminal](images/terminal_output.png)
+![Terminal](Images/terminal_output.png)
 
 ---
 
 ### 📄 CSV Output
 
-![CSV](images/csv_output.png)
+![CSV](Images/csv_output.png)
 
 ---
 

@@ -1,50 +1,58 @@
 # 📊 Retail Sales Forecasting & Inventory Optimization System
 
-## 🚀 Overview
+🚀 **End-to-End Data Science Project | Forecasting + Inventory Optimization + Dashboard**
 
-This project simulates a real-world retail analytics system that forecasts product demand and optimizes inventory decisions using machine learning.
+---
 
-It combines **data science + business logic** to solve critical retail problems like stockouts and overstocking.
+## 🧠 Project Overview
+
+Retail businesses often struggle with maintaining the right inventory levels.
+
+* 📉 Overstock → High holding cost
+* 📉 Stockouts → Lost sales
+
+This project solves this problem by combining **Machine Learning + Business Logic** to:
+
+✔ Forecast future sales
+✔ Optimize inventory decisions
+✔ Provide actionable insights via dashboard
 
 ---
 
 ## 🎯 Problem Statement
 
-Retail businesses struggle with:
+Traditional inventory systems rely on manual estimation, leading to:
 
-* ❌ Stockouts → lost sales
-* ❌ Overstock → high holding cost
+* Inaccurate demand planning
+* Inefficient stock management
+* Revenue loss
 
-This project builds a system to:
-
-* Predict future demand
-* Recommend optimal inventory levels
-
----
-
-## 🧠 Solution Approach
-
-### 🔹 Forecasting
-
-* Lag-based feature engineering
-* Random Forest Regressor
-* Time-series modeling approach
-
-### 🔹 Inventory Optimization
-
-* Safety Stock calculation
-* Reorder Point (ROP)
-* Demand variability handling
+👉 This system automates demand forecasting and inventory optimization.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Matplotlib
-* Streamlit
+* **Programming:** Python 🐍
+* **Libraries:** Pandas, NumPy, Scikit-learn
+* **Visualization:** Matplotlib
+* **Dashboard:** Streamlit
+* **Version Control:** Git & GitHub
+
+---
+
+## ⚙️ Features
+
+✔ Data preprocessing and cleaning
+✔ Feature engineering (lag features, rolling mean, time features)
+✔ Sales forecasting using Random Forest
+✔ Inventory optimization:
+    • Safety Stock
+    • Reorder Point (ROP)
+    • Order Quantity
+✔ Model evaluation using MAE
+✔ Visualization of actual vs predicted sales
+✔ Interactive dashboard using Streamlit
 
 ---
 
@@ -53,14 +61,15 @@ This project builds a system to:
 ```
 Retail-Sales-Forecasting/
 │
-├── data/                     # Dataset
-├── src/                      # Core modules
-├── outputs/                  # Generated results
-├── images/                   # Screenshots
-├── app/                      # Streamlit dashboard
+├── data/                 # Dataset
+├── src/                  # Core modules
+├── app/                  # Streamlit app
+├── outputs/              # Generated results
+├── images/               # Screenshots
 │
-├── main.py                   # Main pipeline
-├── requirements.txt          # Dependencies
+├── main.py               # Main pipeline
+├── requirements.txt      # Dependencies
+├── .gitignore
 └── README.md
 ```
 
@@ -68,9 +77,43 @@ Retail-Sales-Forecasting/
 
 ## ▶️ How to Run
 
+### 🔹 Step 1: Clone Repository
+
+```bash
+git clone https://github.com/Vayu-143/retail-sales-forecasting-inventory-optimization
+cd retail-sales-forecasting-inventory-optimization
+```
+
+---
+
+### 🔹 Step 2: Create Virtual Environment
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate   # Windows
+```
+
+---
+
+### 🔹 Step 3: Install Dependencies
+
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+### 🔹 Step 4: Run Project
+
+```bash
 python main.py
+```
+
+---
+
+### 🔹 Step 5: Run Dashboard
+
+```bash
 streamlit run app/app_streamlit.py
 ```
 
@@ -78,25 +121,31 @@ streamlit run app/app_streamlit.py
 
 ## 📊 Results
 
-* 📉 Model MAE: **~1.47**
-* 📦 Inventory Recommendations Generated
-* 📈 Accurate Forecast Trends
+* 📉 Model Accuracy (MAE): **~1.47**
+* 📈 Accurate sales forecasting trends
+* 📦 Inventory recommendations generated
 
 ---
 
 ## 📸 Screenshots
 
-### 📈 Forecast vs Actual
+### 📈 Sales Forecast vs Actual
 
 ![Forecast](images/forecast_plot.png)
 
-### 📊 Dashboard
+---
+
+### 📊 Streamlit Dashboard
 
 ![Dashboard](images/dashboard.png)
+
+---
 
 ### 💻 Terminal Output
 
 ![Terminal](images/terminal_output.png)
+
+---
 
 ### 📄 CSV Output
 
@@ -104,27 +153,38 @@ streamlit run app/app_streamlit.py
 
 ---
 
+## 🌐 Live Demo (Optional)
+
+👉 Add your Streamlit Cloud link here after deployment
+
+```
+http://localhost:8501/
+```
+
+---
+
 ## 💼 Business Impact
 
-* Improves demand planning accuracy
-* Reduces stockouts and lost revenue
-* Optimizes inventory holding cost
+✔ Improves demand planning
+✔ Reduces stockouts and lost revenue
+✔ Optimizes inventory holding cost
+✔ Enables data-driven decision-making
 
 ---
 
 ## 🔥 Key Highlights
 
-✔ End-to-end ML pipeline
-✔ Business-focused solution
-✔ Real-world simulation
+✔ End-to-end pipeline (data → model → business output)
+✔ Real-world retail use case
+✔ Combines ML + operations logic
 ✔ Interactive dashboard
 
 ---
 
 ## 🚀 Future Improvements
 
-* Multi-store forecasting
-* XGBoost / Prophet models
+* Multi-store & multi-product forecasting
+* Advanced models (XGBoost, Prophet)
 * Real-time dashboard
 * API deployment
 
@@ -133,4 +193,10 @@ streamlit run app/app_streamlit.py
 ## 👨‍💻 Author
 
 Vayunandan Mishra
-Aspiring Data Scientist / Analyst
+Aspiring Data Scientist | Machine Learning Enthusiast
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and connect with me!

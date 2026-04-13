@@ -153,7 +153,7 @@ streamlit run app/app_streamlit.py
 
 ---
 
-## 🌐 Live Demo (Optional)
+## 🌐 Live Demo
 
 ```
 http://localhost:8501/

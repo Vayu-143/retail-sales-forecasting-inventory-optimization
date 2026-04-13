@@ -155,8 +155,6 @@ streamlit run app/app_streamlit.py
 
 ## 🌐 Live Demo (Optional)
 
-👉 Add your Streamlit Cloud link here after deployment
-
 ```
 http://localhost:8501/
 ```
